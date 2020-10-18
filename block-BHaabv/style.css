@@ -1,0 +1,395 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d2029;
+}
+a {
+  text-decoration: none;
+}
+a i {
+  font-size: 90px;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.logo h2 {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.logo p {
+  color: rgb(156, 153, 153);
+}
+.mode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mode h4 {
+  padding-right: 10px;
+  color: gray;
+  font-weight: bold;
+}
+
+.dot {
+  background-color: #1d2029;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.mode-style {
+  background: linear-gradient(to right, #31687e, #3cc998);
+  border-radius: 20px;
+  height: 20px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 250px;
+  height: 200px;
+  background-color: #252b43;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  border-top: 5px solid #1ba2f2;
+}
+
+.fancy-border {
+  background-image: linear-gradient(to right, #f6b73c, #c13584);
+  border-radius: 3px;
+}
+
+.box-3 {
+  position: relative;
+  top: 5px;
+  border: none;
+  border-radius: 0 0 5px 5px;
+}
+.box-4 {
+  border-top: 5px solid #c20329;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.gap {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  color: white;
+  margin: 30px 0;
+  font-weight: bold;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.boxx {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #252b43;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.page a i {
+  color: white;
+}
+
+.num {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .colr {
+  color: #1da59a;
+  font-size: 20px;
+}
+
+.box .red {
+  font-size: 22px;
+}
+
+.boxx .red {
+  font-size: 22px;
+}
+.box .fa-facebook-square {
+  color: #1a90f7;
+  font-size: 25px;
+}
+
+.boxx .fa-facebook-square {
+  color: #1a90f7;
+  font-size: 25px;
+}
+
+.box .fa-twitter {
+  color: #25a3ee;
+  font-size: 25px;
+}
+
+.boxx .fa-twitter {
+  color: #25a3ee;
+  font-size: 25px;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+img {
+  background-color: #c20329;
+  width: 20px;
+  border-radius: 50%;
+}
+.user {
+  color: gray;
+  margin-left: 5px;
+}
+
+.box h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.box p {
+  color: gray;
+  padding-bottom: 30px;
+}
+
+.page p {
+  color: gray;
+  font-size: 22px;
+}
+
+.num p {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.box .fa-youtube {
+  color: red;
+}
+
+.boxx .fa-youtube {
+  color: red;
+}
+.red {
+  color: #c20329;
+  position: relative;
+  bottom: 7px;
+}
+.red a i {
+  font-size: 15px;
+}
+.boxx .colr {
+  color: #3cc998;
+}
+
+.cols {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  text-align: center;
+  align-items: center;
+}
+.text {
+  font-size: 20px;
+  color: #3cc998;
+  margin-left: 5px;
+}
+
+.down {
+  color: #c20329;
+}
+
+.cols a i {
+  top: 4px;
+  position: relative;
+}
+
+.box .fa-instagram {
+  background: -moz-linear-gradient(right, #e7e42c 0%, #c13584 100%);
+  background: -webkit-linear-gradient(right, #e7e42c 0%, #c13584 100%);
+  background: linear-gradient(to right, #e7e42c 0%, #c13584 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+}
+
+.boxx .fa-instagram {
+  background: -moz-linear-gradient(right, #e7e42c 0%, #c13584 100%);
+  background: -webkit-linear-gradient(right, #e7e42c 0%, #c13584 100%);
+  background: linear-gradient(to right, #e7e42c 0%, #c13584 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+}
